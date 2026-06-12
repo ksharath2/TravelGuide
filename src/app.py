@@ -1,4 +1,7 @@
 import streamlit as st
+import requests
+from config import FASTAPI_URL
+
 #We have mode the following value to config.py and imported it there
 FASTAPI_URL = "http://localhost:8000"
 st.title("🧭 AI Travel Itinerary Assistant")
